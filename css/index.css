@@ -1,0 +1,237 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,p,li{
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-weight: normal;
+}
+.container{
+	width:980px;
+	margin:0 auto;
+}
+.section{
+	padding:80px 0;
+	border-bottom:1px solid #E5E5E5;
+}
+/*---------开始部分-----------------*/
+.header{
+	padding:15px 0;
+	background: #f5f5f5;
+}
+.header-c{
+	height:28px;
+	line-height: 28px;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.search{
+	width:360px;
+	float: left;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	padding-left: 15px;
+	font-size: 13px;
+	color:#ccc;
+	margin-right: 15px;
+}
+.functionlist{
+	float:left;
+}
+/*后代选择器*/
+.functionlist li{
+	float: left;
+	padding:0 6px;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*群组选择器*/
+.signin,.signup{
+	display: inline-block;
+	float: right;
+	padding:6px 12px;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	border-radius: 5px;
+	margin-top: -5px;
+	line-height: 22px;
+}
+.signup{
+	background-image: linear-gradient(#8add6d, #60b044);
+	color: #fff;
+	margin-right: 10px;
+}
+.signin{
+	background-image: linear-gradient(#fcfcfc, #eee);
+}
+
+
+/*---------第一部分------------------------------*/
+.main{
+	 background: #202021;
+	background-image: url("../img/octicons-bg.png");
+	border-bottom:none;
+} 
+/*TODO:待优化（浮动收缩问题）*/
+.main-c{
+	height:351px;
+}
+.main-intro{
+	width:620px;
+	color:white;
+	float:left;
+}
+.main-intro p{
+	font-size: 20px;
+	line-height: 1.5;
+
+}
+.big-title{
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+.signup-form{
+	width:320px;
+	height: 352px;
+	float:right;
+}
+.form-text{
+	height: 45px;
+	border:1px solid white;
+	margin-bottom: 10px;
+	color:#AAA;
+	line-height: 45px;
+	background: #fff;
+	border-radius: 5px;
+	padding-left:10px;
+}
+.form-min{
+	color:#616E73;
+	font-size: 12px;
+	margin:10px 0;
+}
+.btn-greensign{
+	/*display: inline-block;*/
+	background-image: linear-gradient(#8add6d, #60b044);
+	height:25px;
+	text-align: center;
+}
+
+/*---------第二部分------------------------------*/
+.enterprise{
+	height: 185px;
+	overflow: hidden;
+	background-image:linear-gradient(#202d5f,#614381)
+}
+.enterprise h2{
+	color: #f5f5f5;
+}
+
+/*TODO：待优化*/
+.ff{
+	text-align: center;
+}
+.btn{
+	display: inline-block;
+	color:#f5f5f5;
+	padding:12px 20px;
+	font-size: 18px;
+	border-radius:6px; 
+	margin:12px auto;
+}
+.btn-blue{
+	background-image: linear-gradient(#45b3f3, #1d6ac8);
+}
+
+
+
+
+
+/*-------第三部分------------------------*/
+
+
+
+.sub-title{
+	color:#333;
+	font-size: 42px;
+	text-align: center;
+	font-weight:normal;
+}
+.sub-info{
+	font-size: 18px;
+	color: #767676;
+	text-align: center;
+	margin: 16px 0 30px;
+}
+
+
+.love{
+	height:700px;
+}
+.love-reason{
+	height:300px;
+	width:488px;
+	float:left;
+	text-align: center;
+}
+.love-reason h3{
+	margin-bottom: 10px;
+	color: #333;
+}
+.love-reason p{
+	font-size: 15px;
+	color: #5a5a5a;
+}
+
+/*-----------第四部分---------------------*/
+.btn-green{
+	margin:12px auto;
+	border:1px solid #5ca941;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.gh-image{
+	width:100%;
+	margin-top: 10px;
+	border:1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+.sub-mac{
+	font-size: 21px;
+	color: #333;
+	margin:40px auto 15px;
+	text-align: center;
+}
+
+
+/*----------结尾部分-------------------*/
+
+.footer-ll{
+	height:18px;
+	padding: 40px 0;
+	line-height: 18px;
+}
+.footer-links{
+	float: left;
+}
+.footer-last{
+	float: right;
+}
+.footer-ll li{
+	float:left;
+	color:#4078c0;
+	font-size: 12px;
+	margin-right:12px;
+}
+.cat{
+	float:left;
+	margin-left: 155px;
+}
